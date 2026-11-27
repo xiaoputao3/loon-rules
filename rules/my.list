@@ -1,0 +1,31 @@
+# 我的 Loon 规则（自托管）
+# 用法：把这个文件放到 GitHub 仓库后，在 Loon [Remote Rule] 里加：
+# https://raw.githubusercontent.com/xiaoputao3/<仓库名>/main/rules/my.list, policy=PROXY, tag=MyRules, enabled=true
+# （把 <仓库名> 换成实际仓库名，PROXY 换成你 Loon 里的策略组名；raw.githubusercontent.com 拉不到时换 jsDelivr：
+#  https://cdn.jsdelivr.net/gh/xiaoputao3/<仓库名>@main/rules/my.list）
+# 以后加规则：改这个文件、提交，Loon 里刷新远程规则即可。
+
+# --- Cue / Manus（来自 RikkaSaiko1/clash_config rules/cue.txt，更新于 2026-11-25）---
+DOMAIN-SUFFIX,cue.im
+DOMAIN-SUFFIX,manus.im
+DOMAIN-SUFFIX,manus.ai
+DOMAIN-SUFFIX,manuscdn.com
+DOMAIN-SUFFIX,manus.space
+DOMAIN-SUFFIX,manus-preview.space
+DOMAIN-SUFFIX,manus.computer
+DOMAIN-SUFFIX,cname.manus.space
+
+# --- 在下面加你自己的规则，一行一条 ---
+# DOMAIN-SUFFIX,example.com
+# DOMAIN,example.com
+# DOMAIN-KEYWORD,netflix
+# IP-CIDR,1.2.3.0/24,no-resolve
+
+# --- Muse / Meta AI（走 AI 分流）---
+DOMAIN-SUFFIX,muse.ai
+DOMAIN-SUFFIX,llama.com
+DOMAIN-SUFFIX,metaaivm.com
+DOMAIN-SUFFIX,metaaiusercontent.com
+DOMAIN-SUFFIX,meta.ai
+DOMAIN-SUFFIX,agent.meta.ai
+DOMAIN-SUFFIX,imagine.meta.com
