@@ -154,7 +154,7 @@ https://github.com/fmz200/wool_scripts/raw/main/Loon/rule/Binance.list, policy=�
 https://github.com/fmz200/wool_scripts/raw/main/Loon/rule/RedBook.list, policy=新国自动策略, tag=小红书IP@bm7, enabled=true
 https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/Loon/Twitter/Twitter.list, policy=美国自动策略, tag=Twitter@bm7, enabled=true
 https://github.com/fmz200/wool_scripts/raw/main/Loon/rule/AppleAll.list, policy=苹果服务, tag=苹果服务@奶思, enabled=true
-https://raw.githubusercontent.com/RikkaSaiko1/clash_config/refs/heads/main/rules/cue.txt, policy=人工智能, tag=Cue/Manus, enabled=true
+https://raw.githubusercontent.com/RikkaSaiko1/clash_config/main/rules/cue.list, policy=人工智能, tag=Cue/Manus, enabled=true
 https://kelee.one/Tool/Loon/Lsr/REGION_SPLITTER.lsr, policy=DIRECT, tag=CN REGION, enabled=true
 
 [Host]
